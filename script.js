@@ -59,7 +59,6 @@ $("#headbottom").append("<button id='morebtn' title='More Actions' data-toggle='
 $("#newpollbtn").addClass("headbtn headbtnleft");
 $("#emotelistbtn").text("Emotes");
 $("#emotelistbtn").removeClass("btn btn-sm");
-$("#emotelistbtn").addClass("fa fa-picture-o");
 $("#emotelistbtn").addClass("ch");
 $("#fullscreenbtn").text("");
 $("#fullscreenbtn").addClass("fa fa-arrows-alt");
