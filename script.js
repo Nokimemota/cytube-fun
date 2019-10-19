@@ -57,7 +57,7 @@ $("#headbottom").append("<button id='addmedia' title='Add Media' class='headbtn 
 $("#headbottom").append($("#newpollbtn"));
 $("#headbottom").append("<button id='morebtn' title='More Actions' data-toggle='dropdown' class='headbtn headbtnleft hide'></button>");
 $("#newpollbtn").addClass("headbtn headbtnleft");
-$("#emotelistbtn").text("");
+$("#emotelistbtn").text("Emotes");
 $("#emotelistbtn").removeClass("btn btn-sm");
 $("#emotelistbtn").addClass("fa fa-picture-o");
 $("#emotelistbtn").addClass("ch");
