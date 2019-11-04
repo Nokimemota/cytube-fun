@@ -696,7 +696,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 
-var bgColorArray = ['https://cdn.discordapp.com/attachments/602979751010893828/634870379210604544/Tatakau_Wallpaperoriginal.png'],
+var bgColorArray = ['https://cdn.discordapp.com/attachments/602979751010893828/641024274160680987/84686.jpg','https://cdn.discordapp.com/attachments/602979751010893828/641024279399497738/84689.jpg','https://cdn.discordapp.com/attachments/602979751010893828/641024283669168178/84715.jpg','https://cdn.discordapp.com/attachments/602979751010893828/641024287096045610/84747.jpg'],
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
