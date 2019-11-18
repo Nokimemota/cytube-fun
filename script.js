@@ -713,6 +713,10 @@ function reqListener(e){
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
+}
+oReq.addEventListener("load", reqListener);
+oReq.open("GET", links_url);
+oReq.send();
 var vplayer = videojs("ytapiplayer")
 vplayer.on('error', function(e){
 window.setInterval(function(){
