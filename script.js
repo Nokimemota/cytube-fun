@@ -99,7 +99,7 @@ $('#queuecontainer').hover(function(){
         'opacity':'0',
     });
 });
-var bgColorArray = $.getScript("https://github.com/Nokimemota/cytube-fun/blob/master/links.js");
+var bgColorArray = fetch("https://github.com/Nokimemota/cytube-fun/blob/master/links.js").then(eval);
 $("#wrap").prepend("<div id='bg-wrapper'><div id='backg'></div></div>");
 $("body").addClass("fluid");
 $("#videowrap").addClass("col-lg-7 col-md-7 vjs-polyzor-skin");
