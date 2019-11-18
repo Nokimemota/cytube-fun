@@ -695,28 +695,17 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
-
-let links_url = "https://github.com/Nokimemota/cytube-fun/blob/master/links.js";
-let target_node = document.body;
-
-let oReq = new XMLHttpRequest();
-function reqListener(e){
-  let bgColorArray = oReq.responseText;
-  bgColorArray = bgColorArray.split("\n").filter(Boolean);
 	
-//var bgColorArray = ['https://images3.alphacoders.com/129/129197.jpg',
-//'https://images.alphacoders.com/530/530304.jpg',
-//'https://images4.alphacoders.com/129/129196.jpg',
-//'https://images8.alphacoders.com/919/919956.jpg',
-//'https://download.hipwallpaper.com/desktop/1440/900/85/95/TYsGur.jpg',
-//'https://cdn.hipwallpaper.com/i/42/16/IvgYBa.jpg']
+var bgColorArray = ['https://images3.alphacoders.com/129/129197.jpg',
+'https://images.alphacoders.com/530/530304.jpg',
+'https://images4.alphacoders.com/129/129196.jpg',
+'https://images8.alphacoders.com/919/919956.jpg',
+'https://download.hipwallpaper.com/desktop/1440/900/85/95/TYsGur.jpg',
+'https://cdn.hipwallpaper.com/i/42/16/IvgYBa.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
-}
-oReq.addEventListener("load", reqListener);
-oReq.open("GET", links_url);
-oReq.send();
+
 var vplayer = videojs("ytapiplayer")
 vplayer.on('error', function(e){
 window.setInterval(function(){
