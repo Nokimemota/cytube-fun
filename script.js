@@ -32,6 +32,7 @@ console.log("Loading BillTubeTheme");
 $.getScript("//billtube.github.io/theme/overlay.js");
 $('head').append("<link rel='stylesheet' href='//billtube.github.io/theme/base.css' />");
 $('head').append("<link rel='stylesheet' href='//billtube.github.io/theme/polyzor.css' />");
+$('head').append("href='//nokimemota.github.io/cytube-fun/links.js'");
 $("#videowrap").addClass("vjs-polyzor-skin");
 $(".server-msg-reconnect").addClass("fa fa-plug");
 $(".server-msg-reconnect").text("");
@@ -696,7 +697,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 
-var bgColorArray = $.getScript("links.js");
+var bgColorArray = links;
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
