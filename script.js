@@ -99,6 +99,7 @@ $('#queuecontainer').hover(function(){
         'opacity':'0',
     });
 });
+var bgColorArray = $.getScript("https://github.com/Nokimemota/cytube-fun/blob/master/links.js");
 $("#wrap").prepend("<div id='bg-wrapper'><div id='backg'></div></div>");
 $("body").addClass("fluid");
 $("#videowrap").addClass("col-lg-7 col-md-7 vjs-polyzor-skin");
@@ -696,7 +697,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 
-var bgColorArray = $.getScript("https://github.com/Nokimemota/cytube-fun/blob/master/links.js");
+
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
