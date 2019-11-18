@@ -696,7 +696,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 
-var links = ['https://images8.alphacoders.com/919/919956.jpg']
+var links = ['https://media.discordapp.net/attachments/602979751010893828/641024283669168178/84715.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
