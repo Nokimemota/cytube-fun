@@ -696,13 +696,13 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 	
-var bgColorArray = ['https://i.imgur.com/oH3ESfw.jpg',
-'https://i.imgur.com/NAxBPSs.png',
-'https://i.imgur.com/qLHSPek.jpg',
-'https://i.imgur.com/aQtrwbx.jpg',
-'https://i.imgur.com/sjmfHgf.jpg',
-'https://i.imgur.com/iY9Rk0o.jpg',
-'https://i.imgur.com/3gSmHLl.jpg']
+var bgColorArray = ['https://cdn.discordapp.com/attachments/602979751010893828/650136652378931210/455078.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/650136652727189504/1049071-top-kaichou-wa-maid-sama-wallpaper-1920x1200.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/650136653838680084/963018.png',
+'https://cdn.discordapp.com/attachments/602979751010893828/650136654291664927/938688-2560x1440-DesktopNexus.com.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/650136657663885313/109471-2560x1440-DesktopNexus.com.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/650136660041924629/938676-2560x1440-DesktopNexus.com.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/650136937663037440/Konachan.com_-_19088_lina_inverse_slayers.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
