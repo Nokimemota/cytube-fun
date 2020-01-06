@@ -696,9 +696,11 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 	
-var bgColorArray = ['https://cdn.discordapp.com/attachments/602979751010893828/650152836092395535/455078.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/650136652727189504/1049071-top-kaichou-wa-maid-sama-wallpaper-1920x1200.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/650136653838680084/963018.png',
+var bgColorArray = ['https://cdn.discordapp.com/attachments/602979751010893828/641024274160680987/84686.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/641024279399497738/84689.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/641024279399497738/84689.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/641024283669168178/84715.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/641024287096045610/84747.jpg',
 'https://cdn.discordapp.com/attachments/602979751010893828/650136654291664927/938688-2560x1440-DesktopNexus.com.jpg',
 'https://cdn.discordapp.com/attachments/602979751010893828/650136657663885313/109471-2560x1440-DesktopNexus.com.jpg',
 'https://cdn.discordapp.com/attachments/602979751010893828/650136660041924629/938676-2560x1440-DesktopNexus.com.jpg',
