@@ -701,10 +701,10 @@ var bgColorArray = ['https://cdn.discordapp.com/attachments/602979751010893828/6
 'https://cdn.discordapp.com/attachments/602979751010893828/641024279399497738/84689.jpg',
 'https://cdn.discordapp.com/attachments/602979751010893828/641024283669168178/84715.jpg',
 'https://cdn.discordapp.com/attachments/602979751010893828/641024287096045610/84747.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/650136654291664927/938688-2560x1440-DesktopNexus.com.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/650136657663885313/109471-2560x1440-DesktopNexus.com.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/650136660041924629/938676-2560x1440-DesktopNexus.com.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/650136937663037440/Konachan.com_-_19088_lina_inverse_slayers.jpg']
+'https://images4.alphacoders.com/229/229184.jpg',
+'https://images3.alphacoders.com/229/229185.jpg',
+'https://images2.alphacoders.com/229/229180.jpg',
+'https://images4.alphacoders.com/244/244866.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
