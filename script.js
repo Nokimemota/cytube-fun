@@ -696,10 +696,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 	
-var bgColorArray = ['https://static.zerochan.net/Casshern.%28Casshern.Sins%29.full.362876.jpg',
-'https://static.zerochan.net/Casshern.full.1082456.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/669657286821675018/casshern-sins-2.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/669657892466589715/casshern-sins-9.jpg',
+var bgColorArray = ['https://images2.alphacoders.com/844/844773.jpg',
+'https://images7.alphacoders.com/103/1032819.jpg',
+'https://images2.alphacoders.com/103/1032852.jpg',
+'https://images8.alphacoders.com/103/1033072.jpg',
+'https://images5.alphacoders.com/103/1033078.jpg',
+'https://images7.alphacoders.com/103/1033100.jpg',
+'https://images.alphacoders.com/769/769149.jpg',
+'https://images.alphacoders.com/103/1033066.jpg',
 'https://images4.alphacoders.com/229/229184.jpg',
 'https://images3.alphacoders.com/229/229185.jpg',
 'https://images2.alphacoders.com/229/229180.jpg',
