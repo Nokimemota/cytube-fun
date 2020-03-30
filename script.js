@@ -704,10 +704,10 @@ var bgColorArray = ['https://images2.alphacoders.com/844/844773.jpg',
 'https://images7.alphacoders.com/103/1033100.jpg',
 'https://images.alphacoders.com/769/769149.jpg',
 'https://images.alphacoders.com/103/1033066.jpg',
-'https://images4.alphacoders.com/229/229184.jpg',
-'https://images3.alphacoders.com/229/229185.jpg',
-'https://images2.alphacoders.com/229/229180.jpg',
-'https://images4.alphacoders.com/244/244866.jpg']
+'https://images3.alphacoders.com/232/232625.jpg',
+'https://images5.alphacoders.com/781/781587.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/694258399797444689/Kanzaki.Hitomi.full.591679.jpg',
+'https://cdn.discordapp.com/attachments/602979751010893828/694258404784341023/Tenkuu.no.Escaflowne.full.1093556.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
