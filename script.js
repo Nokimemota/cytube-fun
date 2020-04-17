@@ -696,18 +696,19 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 	
-var bgColorArray = ['https://images2.alphacoders.com/844/844773.jpg',
-'https://images7.alphacoders.com/103/1032819.jpg',
-'https://images2.alphacoders.com/103/1032852.jpg',
-'https://images8.alphacoders.com/103/1033072.jpg',
-'https://images5.alphacoders.com/103/1033078.jpg',
-'https://images7.alphacoders.com/103/1033100.jpg',
-'https://images.alphacoders.com/769/769149.jpg',
-'https://images.alphacoders.com/103/1033066.jpg',
-'https://images3.alphacoders.com/232/232625.jpg',
-'https://images5.alphacoders.com/781/781587.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/694258399797444689/Kanzaki.Hitomi.full.591679.jpg',
-'https://cdn.discordapp.com/attachments/602979751010893828/694258404784341023/Tenkuu.no.Escaflowne.full.1093556.jpg']
+var bgColorArray = ['https://images7.alphacoders.com/402/402045.jpg',
+'https://images8.alphacoders.com/629/629442.jpg',
+'https://images4.alphacoders.com/120/120106.jpg',
+'https://images4.alphacoders.com/120/120104.jpg',
+'https://images5.alphacoders.com/629/629704.jpg',
+'https://images8.alphacoders.com/629/629700.jpg',
+
+'https://images2.alphacoders.com/104/104492.jpg',
+'https://images4.alphacoders.com/112/112104.jpg',
+'https://images.alphacoders.com/878/878580.jpg',
+'https://images4.alphacoders.com/802/802190.jpg',
+'https://images5.alphacoders.com/749/749086.png',
+'https://images3.alphacoders.com/739/739282.png']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
