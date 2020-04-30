@@ -707,9 +707,8 @@ var bgColorArray = ['https://images3.alphacoders.com/129/129197.jpg',
 'https://images5.alphacoders.com/749/749086.png',
 'https://images3.alphacoders.com/739/739282.png'//nanoha
 		   
-'https://www.themeraider.com/wp-content/uploads/2017/04/feat-april-9-1.jpg',
-'https://i.ytimg.com/vi/rXFBasb4xwI/maxresdefault.jpg'//Chrono crusade
-]
+'https://www.themeraider.com/wp-content/uploads/2017/04/feat-april-9-1.jpg',//Chrono crusade
+'https://i.ytimg.com/vi/rXFBasb4xwI/maxresdefault.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
