@@ -696,19 +696,20 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 	
-var bgColorArray = ['https://images7.alphacoders.com/402/402045.jpg',
-'https://images8.alphacoders.com/629/629442.jpg',
-'https://images4.alphacoders.com/120/120106.jpg',
-'https://images4.alphacoders.com/120/120104.jpg',
-'https://images5.alphacoders.com/629/629704.jpg',
-'https://images8.alphacoders.com/629/629700.jpg',
+var bgColorArray = ['https://images3.alphacoders.com/129/129197.jpg',
+'https://images.alphacoders.com/530/530304.jpg',
+'https://images4.alphacoders.com/129/129196.jpg',//Aria
 
 'https://images2.alphacoders.com/104/104492.jpg',
 'https://images4.alphacoders.com/112/112104.jpg',
 'https://images.alphacoders.com/878/878580.jpg',
 'https://images4.alphacoders.com/802/802190.jpg',
 'https://images5.alphacoders.com/749/749086.png',
-'https://images3.alphacoders.com/739/739282.png']
+'https://images3.alphacoders.com/739/739282.png'//nanoha
+		   
+'https://www.themeraider.com/wp-content/uploads/2017/04/feat-april-9-1.jpg',
+'https://i.ytimg.com/vi/rXFBasb4xwI/maxresdefault.jpg'//Chrono crusade
+]
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
