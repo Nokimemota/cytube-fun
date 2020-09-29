@@ -696,19 +696,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-53755606-1', 'auto');
 ga('send', 'pageview');
 	
-var bgColorArray = ['https://images3.alphacoders.com/129/129197.jpg',
-'https://images.alphacoders.com/530/530304.jpg',
-'https://images4.alphacoders.com/129/129196.jpg',//Aria
-
-'https://images2.alphacoders.com/104/104492.jpg',
-'https://images4.alphacoders.com/112/112104.jpg',
-'https://images.alphacoders.com/878/878580.jpg',
-'https://images4.alphacoders.com/802/802190.jpg',
-'https://images5.alphacoders.com/749/749086.png',
-'https://images3.alphacoders.com/739/739282.png',//nanoha
-		   
-'https://www.themeraider.com/wp-content/uploads/2017/04/feat-april-9-1.jpg',//Chrono crusade
-'https://i.ytimg.com/vi/rXFBasb4xwI/maxresdefault.jpg']
+var bgColorArray = ['https://www.wallpaperflare.com/static/401/209/165/hyouka-anime-anime-girls-purple-eyes-wallpaper.jpg']
 
 selectBG = bgColorArray[Math.floor(Math.random() * bgColorArray.length)];
 $('#backg').css('background', 'url(' + selectBG + ')')
