@@ -1,4 +1,6 @@
-   {
+{ "array" :
+ [
+    {
       "series":"megami",
       "url":"https://animethemes.moe/video/AaMegamiSama-OP1.webm",
       "title":"Open your eyes"
@@ -473,3 +475,5 @@
       "url":"https://animethemes.moe/video/GirlsBravo-ED1.webm",
       "title":"Koko ni Irukara..."
    }
+    ]
+}
